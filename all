@@ -158,7 +158,23 @@ for(int i=1;i<=n;i++){
 
 
 
-
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"enter no.: "<<endl;
+    
+    int n;
+    cin>>n;
+    int sum=0;
+    for(int i=1;i<=n;i++){
+        if(i%2==1){
+            sum+=i;
+        }
+        else sum-=i;
+    }
+    cout<<sum;
+    return 0;
+}
 
 
 
@@ -189,7 +205,19 @@ for(int i=1;i<=n;i++){
 
 
 
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"enter no. : "<<endl;
+    int n;
+    cin>>n;
+    int factorial=1;
+    for(int i=1;i<=n;i++){
+        factorial*=i;
+        cout<<factorial<<endl;
 
+    }
+}
 
 
 
@@ -216,7 +244,23 @@ for(int i=1;i<=4;i++){
 
 
 
+#include<iostream>
+using namespace std;
+int main(){
+int a,b;
+cout<<"enter no. a"<<endl;
+cin>>a;
+cout<<"emnter b:\n";
+cin>>b;
+int powerof=1;
+for(int c = b;c>0;c--){
+    powerof=powerof*a;
+}
+cout<<a<<" raised to power of "<<b<<" is "<<powerof;
 
+return 0;
+
+}
 
 
 
@@ -238,16 +282,6 @@ for(int i=1;i<=4;i++){
     }
     cout<<endl;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -279,17 +313,6 @@ int main(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 #include <iostream>
 using namespace std;
 int main(){
@@ -299,6 +322,9 @@ for(int i=1;i<=4;i++){
     }
     cout<<endl;
     }
+
+
+
 
 
 
