@@ -1,0 +1,294 @@
+#include<iostream>
+using namespace std;
+int main(){
+    for(int i =1;i<=6;i++){
+        for(int j=1;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    for(int i =1;i<=6;i++){
+        for(int j=1;j<=6-i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    for(int i =1;i<=4;i++){
+        for(int j=1;j<=7;j++){
+            if(j==4){cout<<"*";}
+            else if((i!=1)&&(j==3)){cout<<"*";}
+            else if((i!=1)&&(j==5)){cout<<"*";}
+            else if((i==3)&&(j==2)){
+                cout<<"*";
+            }
+            else if((i==3)&&(j==6)){
+                cout<<"*";
+            }
+            else if((i==4)&&(j==1)){cout<<"*";}
+            else if((i==4)&&(j==7)){cout<<"*";}
+            else if((i==4)&&(j==2)){cout<<"*";}
+            else if((i==4)&&(j==6)){cout<<"*";}
+            else cout<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+
+for(int i=1;i<=4;i++){
+    for(int j = 1; j<=7;j++){
+        if(i==4){cout<<"*";}
+        else if(i==3){
+            if((j==2)||(j==3)||(j==4)||(j=5)||(j==6)){
+                cout<<"*";
+            }
+            else cout<<" ";
+        }
+        else if(i==2){if((j==3)||(j==4)||(j==5)){cout<<"*";}
+        else cout<<" ";}
+        else if((i==1)&&(j==4)){cout<<"*";}
+        else cout<<" ";
+    }
+    cout<<endl;
+}
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    cout<<"enter no. of rows of triangle you want :"<<endl;
+    int n;
+    cin>>n;
+for(int i=1;i<=n;i++){
+
+    for(int j =1;j<=(n-i+1);j++){cout<<" ";}
+    for(int j =1;j<=2*i-1;j++){cout<<"*";}
+    cout<<endl;
+}
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+int n=7;
+for(int i=1;i<=n;i++){
+
+   for(int j=i;j<=n;j++){
+    cout<<j;
+
+   }
+   for(int j=1;j<=i-1;j++){cout<<j;}
+   cout<<endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+for(int i=1;i<=4;i++){
+
+    for(int j= 1;j<=6;j++){
+        cout<<j;
+    }
+    cout<<endl;
+}
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+for(int i=1;i<=4;i++){
+
+    for(int j =1;j<=6;j++){
+        if((i==1)||(i==4)||(j==1)||(j==6)){
+            cout<<j;
+        }
+        else cout<<" ";
+    }
+    cout<<endl;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    for(int i=1;i<=4;i++){
+        
+        // for(int j=1;j<=3;j++){
+        // if(i%2==1){cout<<"12";}
+        // else if(i%2==0){cout<<"21";}}
+        // cout<<"\n";
+
+        for(int j=1;j<=6;j++){
+            if((i+j)%2==0){cout<<"1";}//if you remove ==0 the if turns false for even
+            else cout<<"2";
+        }cout<<endl;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+for(int i=1;i<=4;i++){
+    for(int j=1;j<=i;j++){
+        cout<<j;
+    }
+    cout<<endl;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
